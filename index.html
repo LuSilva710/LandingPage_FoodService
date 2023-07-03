@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i> #710</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">Início</a>
+            <a href="#dishes">Especialidades</a>
+            <a href="#about">Sobre</a>
+            <a href="#menu">Cardápio</a>
+            <a href="#review">Feedbacks</a>
+            <a href="#order">Pedido</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#order" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+    <form action="" id="search-form">
+        <input type="search" name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <section class="home" id="home">
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Hambúrgueres </span>
+                        <h3>Artesanais #710</h3>
+                        <p>Hambúrguer preparado artesanalmente, com carnes selecionadas e uma combinação surpreedente de
+                            temperos e especiarias.
+                        </p>
+                        <a href="#menu" class="btn">Peça já!</a>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/combo.png" alt="Hamburguer e fritas">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Porções Supremas</span>
+                        <h3>Com muuuito bacon</h3>
+                        <p>Nossas batatas cuidadosamente selecionadas são preparadas com perfeição, resultando em uma
+                            textura incrivelmente crocante por fora e macia por dentro.
+                        </p>
+                        <a href="#menu" class="btn">Peça já!</a>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/banner.png" alt="Batata frita">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Drinks Especiais</span>
+                        <h3>Stone Ligth</h3>
+                        <p>Todos os drinks são produzidos com ingredientes naturais de alta qualidade para te
+                            proporcionar uma experiência única e saborosa!</p>
+                        <a href="#menu" class="btn">Peça já!</a>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/drinks-removebg-preview.png" alt="Drinks diversos">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">Culinária</h3>
+        <h1 class="heading">Mineira</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./assets/img1.jpg" alt="">
+                <h3>Porções</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span></span>
+                <a href="#porção" class="btn">Confira</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./assets/img2.jpg" alt="">
+                <h3>Burger Clássico</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span></span>
+                <a href="#hamburguer" class="btn">Confira</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./assets/img5.jpg" alt="">
+                <h3>Burger Especial</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span></span>
+                <a href="#hamburguer" class="btn">Confira</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./assets/bebidas.jpg" alt="">
+                <h3>Drinks</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span></span>
+                <a href="#bebida" class="btn">Confira</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h3 class="sub-heading">SOBRE A #710</h3>
+        <h1 class="heading">Por que escolher a #710?</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="./assets/combo.png" alt="Logo">
+            </div>
+
+            <div class="content">
+                <h3>MELHOR HAMBÚRGUER DA CIDADE</h3>
+                <p>O HAMBÚRGUER PERFEITO!!!<br>
+                    Apresentamos o nosso Hambúrguer Artesanal! Uma experiência gastronômica que vai encantar seu
+                    paladar.<br>
+                    O preparo de cada hambúrguer é realizado manualmente, com carnes selecionadas e frescas.<br>
+                    Uma deliciosa combinação de temperos e especiarias, com ingredientes de qualidade. <br>
+                    O resultado? Um hambúrguer suculento, com sabor inigualável e uma explosão de sabores em cada
+                    mordida.
+                </p>
+
+
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Entrega grátis</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>Diversas Formas de Pagamento</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>Atendimento Personalizado</span>
+                    </div>
+                </div>
+                <a href="#order" class="btn">Saiba mais!</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+
+        <h3 class="sub-heading">Cardápio</h3>
+        <h1 class="heading" id="porção">Porções</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/batata.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 id="produto">Batata #710</h3>
+                    <p>Porção de batata frita</p><br>
+                    <a href="#order" class="btn" onclick="adicionarAoCarrinho(this.dataset.titulo)"
+                        data-titulo="Batata #710">REALIZAR PEDIDO</a>
+                    <span class="price">R$18</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/img1.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 id="produto">Batata Suprema</h3>
+                    <p>Porção de batata frita, com acréscimo de cheddar e bacon.</p><br>
+                    <a href="#order" class="btn" onclick="adicionarAoCarrinho(this.dataset.titulo)"
+                        data-titulo="Batata Suprema">REALIZAR PEDIDO</a>
+                    <span class="price">R$25</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/nuggets.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 id="produto">Nuggets</h3>
+                    <p>Porção de Nuggets com molho especial.</p><br>
+                    <a href="#order" class="btn" onclick="adicionarAoCarrinho(this.dataset.titulo)"
+                        data-titulo="Nuggets">REALIZAR PEDIDO</a>
+                    <span class="price">R$25</span>
+                </div>
+            </div>
+        </div>
+        <h1 class="heading" id="combo">Combos</h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/combo1.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 id="produto">Combo #710</h3>
+                    <p>Dois hamburgueres artesanais clássicos, acompanhados de uma caixa de batata suprema e uma
+                        coca-cola (2L).</p><br>
+                    <a href="#order" class="btn" onclick="adicionarAoCarrinho(this.dataset.titulo)"
+                        data-titulo="Combo #710">REALIZAR PEDIDO</a>
+                    <span class="price">R$90</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/dupla.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 id="produto">Dupla #710</h3>
+                    <p>Dois hambúrgueres artesanais a sua escolha, acompanhados de fritas e uma Coca-Cola (2L).</p><br>
+                    <a href="#order" class="btn" onclick="adicionarAoCarrinho(this.dataset.titulo)"
+                        data-titulo="Dupla #710">REALIZAR PEDIDO</a>
+                    <span class="price">R$80</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/combo3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 id="produto">Família #710</h3>
+                    <p>Três hambúrgueres artesanais a sua escolha, com mais duas porções a sua escolha.</p><br>
+                    <a href="#order" class="btn" onclick="adicionarAoCarrinho(this.dataset.titulo)"
+                        data-titulo="Família #710">REALIZAR PEDIDO</a>
+                    <span class="price">R$140</span>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="heading" id="hamburguer" >Hambúrgueres</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/img5.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 id="produto">Hambúrguer #710</h3>
+                    <p>Pão selado na manteiga, hambúrguer artesanal de carne bovina (130 g), queijo cheddar cremoso,
+                        fatias
+                        de bacon, ovo caipira, cebola roxa e picles.<br>
+
+                        *Acompanhado de fritas e refrigerante (200 mL).</p>
+                    <a href="#order" class="btn" onclick="adicionarAoCarrinho(this.dataset.titulo)"
+                        data-titulo="Hambúrguer #710">REALIZAR PEDIDO</a>
+                    <span class="price">R$35</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/img4.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 id="produto">Bomb Bacon</h3>
+                    <p>Pão selado na manteiga, hambúrguer artesanal de carne bovina (130 g), queijo cheddar cremoso,
+                        cebola
+                        caramelizada e muito bacon.<br>
+
+                        *Acompanhado de fritas e refrigerante (200 mL).</p><br>
+                    <a href="#order" class="btn" onclick="adicionarAoCarrinho(this.dataset.titulo)"
+                        data-titulo="Bomb Bacon">REALIZAR PEDIDO</a>
+                    <span class="price">R$35</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/img7.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 id="produto">Master Chicken</h3>
+                    <p>Pão selado na manteiga, hambúrguer artesanal de frango (130 g), mussarela, fatias de bacon e
+                        salada
+                        ©710.</p><br>
+
+                    *Acompanhado de fritas e refrigerante (200 mL).
+                    <a href="#order" class="btn" onclick="adicionarAoCarrinho(this.dataset.titulo)"
+                        data-titulo="Master Chicken">REALIZAR PEDIDO</a>
+                    <span class="price">R$35</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/img3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 id="produto">Big #710</h3>
+                    <p>Pão selado na manteiga, dois hambúrgueres artesanais de carne bovina (130 g/cada), dupla camada
+                        de
+                        queijo cheddar cremoso, fatias de bacon, ovo caipira, cebola roxa e picles.</p><br>
+                    <a href="#order" class="btn" onclick="adicionarAoCarrinho(this.dataset.titulo)"
+                        data-titulo="Big #710">REALIZAR PEDIDO</a>
+                    <span class="price">R$42</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/img6.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 id="produto">Big Bomb</h3>
+                    <p>Pão selado na manteiga, dois hambúrgueres artesanais de carne bovina (130 g/cada), dupla camada
+                        de
+                        queijo cheddar cremoso, cebola caramelizada e muito bacon.</p>
+                    <a href="#order" class="btn" onclick="adicionarAoCarrinho(this.dataset.titulo)"
+                        data-titulo="Big Bomb">REALIZAR PEDIDO</a>
+                    <span class="price">R$42</span>
+                </div>
+            </div>
+        </div>
+        <h1 class="heading" id="bebida">Bebidas</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/bebidas.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 id="produto">Pink Lemonade</h3>
+                    <p>Experimente a combinação perfeita entre o doce do morango, o sabor do hibisco e a refrescância do
+                        limão.</p><br>
+                    <a href="#order" class="btn" onclick="adicionarAoCarrinho(this.dataset.titulo)"
+                        data-titulo="Pink Lemonade">REALIZAR PEDIDO</a>
+                    <span class="price">R$12</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/bebida2.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 id="produto">Mojito</h3>
+                    <p> Sinta a refrescância do rum com limão e hortelã.</p><br><br>
+                    <a href="#order" class="btn" onclick="adicionarAoCarrinho(this.dataset.titulo)"
+                        data-titulo="Mojito">REALIZAR PEDIDO</a>
+                    <span class="price">R$12</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/bebida3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 id="produto">Whisky Sour</h3>
+                    <p>O Whisky Sour é produzido com whisky envelhecido em barril de carvalho e um toque de limão.</p>
+                    <br>
+                    <a href="#order" class="btn" onclick="adicionarAoCarrinho(this.dataset.titulo)"
+                        data-titulo="Whisky Sour">REALIZAR PEDIDO</a>
+                    <span class="price">R$12</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/bebida4.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 id="produto">Tropical Gin</h3>
+                    <p>A combinação perfeita do doce pomelo e a acidez do maracujá.</p><br>
+                    <br>
+                    <a href="#order" class="btn" onclick="adicionarAoCarrinho(this.dataset.titulo)"
+                        data-titulo="Tropical Gin">REALIZAR PEDIDO</a>
+                    <span class="price">R$12</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="review" id="review">
+
+        <h3 class="sub-heading">Feedbacks</h3>
+        <h1 class="heading">Nossos clientes</h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./assets/perfil.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Person 1</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
+                        odio exercitationem voluptates et est, vero odit quibusdam
+                        repellat. Vitae magni sequi eaque aut molestias, architecto
+                        illum iure repudiandae expedita culpa.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./assets/perfil.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Person 1</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
+                        odio exercitationem voluptates et est, vero odit quibusdam
+                        repellat. Vitae magni sequi eaque aut molestias, architecto
+                        illum iure repudiandae expedita culpa.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./assets/perfil.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Person 1</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
+                        odio exercitationem voluptates et est, vero odit quibusdam
+                        repellat. Vitae magni sequi eaque aut molestias, architecto
+                        illum iure repudiandae expedita culpa.</p>
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="./assets/perfil.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Person 1</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
+                        odio exercitationem voluptates et est, vero odit quibusdam
+                        repellat. Vitae magni sequi eaque aut molestias, architecto
+                        illum iure repudiandae expedita culpa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="order" id="order">
+
+        <h3 class="sub-heading">Pedido</h3>
+        <h1 class="heading">Rápido e prático</h1>
+
+        <form action="">
+            <div class="inputBox">
+                <div class="input">
+                    <span>Nome</span>
+                    <input type="text" placeholder="Informe seu nome" required>
+                </div>
+                <div class="input">
+                    <span>Telefone</span>
+                    <input type="text" pattern="\\d{2,3}\ \d{9}" placeholder="Informe seu número" required>
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Endereço</span>
+                    <textarea name="" placeholder="Informe seu endereço" id="" cols="30" rows="10" required></textarea>
+                </div>
+                <div class="input">
+                    <span>Pedido</span>
+                    <textarea type="text" id="pedidoInput" placeholder="Informe seu pedido" required></textarea>
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Adicionais</span>
+                    <textarea type="number" placeholder="Informe se haverá algum adicional"></textarea>
+                </div>
+                <div class="input">
+                    <span>Comentário</span>
+                    <textarea name="" placeholder="Deixe um comentário" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Forma de Pagamento</span>
+                    <select id="dropdown" required>
+                        <option value="opcao0" selected></option>
+                        <option value="opcao1">Dinheiro</option>
+                        <option value="opcao2">Pix</option>
+                        <option value="opcao3">Cartão de Crédito</option>
+                        <option value="opcao4">Cartão de Débito</option>
+                      </select>
+                </div>
+                <div class="input">
+                    <span>Data / Hora</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+            <input type="submit" value="ENVIAR PEDIDO" class="btn">
+        </form>
+    </section>
+
+    <footer>
+        <div class="box-container">
+            <div class="box">
+                <h3>Links</h3>
+                <a href="#home">Início</a>
+                <a href="#dishes">Hamburgueres</a>
+                <a href="#about">Sobre</a>
+                <a href="#menu">Cardápio</a>
+                <a href="#review">Feedbacks</a>
+                <a href="#order">Pedido</a>
+            </div>
+
+            <div class="box">
+                <h3>Localidades</h3>
+                <a >Jeceaba - MG</a>
+                <a >Congonhas - MG</a>
+                <a >Ouro Branco - MG</a>
+                <a >Conselheiro Lafaiete - MG</a>
+            </div>
+
+            <div class="box">
+                <h3>Contato</h3>
+                <a>+55 00 0000 0000</a>
+                <a>hamburgueria710@gmail.com</a>
+
+            </div>
+
+            <div class="box">
+                <h3>Contato</h3>
+                <a href="">Whatsapp</a>
+                <a href="https://www.instagram.com/hamburgueria.710/">Instagram</a>
+                <a href="https://hamburgueria710.ola.click/">Cardápio Digital</a>
+            </div>
+        </div>
+        <div class="credit">Copyright © 2023 by <span>@Lu_Silva</span> | All Rights Reserved. </div>
+    </footer>
+
+    <div class="loader-container">
+        <img src="./assets/Food-Loader-GIF.gif" alt="">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
