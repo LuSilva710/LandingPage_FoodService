@@ -2,7 +2,7 @@
 
 <h1 >📚  Sobre</h1>
 <p> Landing Page para restaurantes, serviço de entrega de comida, empresa de catering ou qualquer outra iniciativa gastronômica.</p>
-<br><br>
+<br>
 
 <h1 >🚀  Tecnologias utilizadas</h1>
 ✔️ HTML5 <br>
