@@ -40,7 +40,7 @@ git clone [git@github.com/LuSilva710/LandingPage_FoodService.git](https://github
 
 ---
 Copyright (c) 2023 <br>
-Feito com ♥ by @Lu Silva :wave:
+Feito com ♥ por @Lu Silva :wave:
 
 ---
 <h1> Contato </h1><br>
